@@ -1,0 +1,47 @@
+@charset="UTF-8";
+
+.principal {
+	display: block;
+	width: 800px;
+	float: left;
+	margin: 5px auto 0px auto;
+	padding: 10px;
+	border-right: 2px solid yellow;
+}
+
+h1 {
+	text-align: center;
+	color: #DCDCDC;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+table {
+	margin: 0px auto;
+	border: none;
+}
+
+table img {
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+td {
+	padding: 3px 3px 0px 3px;
+}
+
+.lateral {
+	display: block;
+	float: right;
+	width: 310px;
+	margin: 5px 10px 0px 0px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #dcdcdc;
+	font-family: verdana;
+}

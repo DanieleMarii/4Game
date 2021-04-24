@@ -1,11 +1,11 @@
 @charset="UTF-8";
 
 body {
-	/* background: yellow; */
+	background: #000; 
 }
 
 #interface{
-	background: red;
+	background: #000;
 	max-width: 1200px;
 	margin: -8px auto 0px auto;
  	/* sup, inf, */
@@ -16,6 +16,7 @@ body {
 #topo {
 	height: 130px;
 	/* background: #808080; */
+	z-index: 1;
 }
 
 /* inicio menu */
@@ -27,10 +28,11 @@ body {
 	top: 130px;
 	margin-left: 300px;
 	top: 97px;
+	z-index: 2;
 	
 }
 #menu ul {
-	text-decoration: none;
+	text-decoration: none; /* tira o sublinhado */
 	list-style: none;/* tira as bolinhas */
 	margin: 0px;
 	padding: 0px;
@@ -97,3 +99,64 @@ body {
 .anime1:hover, .anime2{
 	opacity:  0;
 }
+
+.console {
+	position: relative;
+	max-width: 1200px;
+	height: auto;
+	left: 1.5%;
+}
+
+.ps_xbox{
+	float: left;
+	width: 350px;
+	margin: 10px 20px;
+}
+
+img {
+	max-width: 100%; /* nao ultrapassa o tamanho da imagem original; */
+	height: auto;
+}
+
+.rodape {
+	clear: both;/* sai das divisoes */
+	border-top: 2px solid yellow;
+}
+ .rodape p {
+	 text-align: center;
+ }
+
+h3 {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	margin: 3px;
+	color: #dcdcdc;
+}
+
+p {
+	text-align: justify;
+	color: #fff;
+	text-indent: 20px;
+	font-family: verdana;
+	font-size: 14pt;
+	padding: 0px 15px;
+}
+
+span a{
+	font-size: 12pt;
+	text-decoration: none;
+	color: #9bc848;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+span a:hover{
+	color: #87CEEB;
+}
+
+.rodape a{
+	text-decoration: none;
+}
+
+/* CSS PAGINA XBOX E PS */
