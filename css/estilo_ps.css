@@ -1,0 +1,51 @@
+@charset="UTF-8";
+
+.outrasNoticias{
+	width: 310px;
+	margin: 5px auto 0px auto;
+	display: block;
+	/* padding: 10px; */
+	float: left;
+}
+
+.lateral{
+	border-left: 2px solid yellow;
+	display: block; 
+	width: 800px;
+	float: right;
+	margin: 5px 10px 0px 0px;
+	padding: 10px;
+	
+	/* border-right: 2px solid yellow; */
+}
+
+h1{
+	text-align: center;
+	color: #DCDCDC;
+	font-family: verdana;
+	font-size: 25px;
+}
+
+h2{
+	text-align: center;
+	font-size: 20px;
+	color: #dcdcdc;
+	font-family: verdana;
+	
+}
+
+table {
+	margin: 0px auto;
+	border: none;
+}
+
+table img {
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+td {
+	padding: 3px 3px 0px 3px;
+}
