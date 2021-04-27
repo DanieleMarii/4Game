@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.galeria1 {
+	width: 800px;
+	height: 500px;
+	margin: 0px auto;
+}
+
+.galeria_foto{
+	list-style: none;
+	margin: 0px auto;
+	padding: 50px;
+	
+}
+
+.galeria_foto li{
+	display: block;
+	float: left;
+	position: relative;
+	margin: 3px;
+
+}
+
+.galeria_foto img{
+	width: 200px;
+	height: auto;
+	border: 1px solid yellow;
+}
+
+.aumentar:hover {
+	z-index: 5;
+	transform: scale(1.5);
+	
+}
+
+/* SEGUNDA ANIMAÇÃO */
+
+.album{
+	width: 800px;
+	margin: 0px auto;
+	padding: 50px;
+	list-style: none;
+}
+
+.album li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: 6px solid yellow;
+	background: #FFF;
+	margin: 10px;
+	transition: all .4s ease-in;
+}
+
+li .galeria {
+	background: rgba(0,0,0,.5);
+	font: 14px verdana;
+	padding: 5px;
+	line-height: 370px;
+	opacity: 0;
+	color: #FFF;
+	
+}
+
+li:hover .galeria{
+	opacity: 1;
+}
+
+.album li:hover{
+	transform: scale(1.5);
+}
+
+li.foto01{
+	background:url("../imagens/galeria1.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto01:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}
+
+li.foto02{
+	background:url("../imagens/galeria2.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto02:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}
+
+li.foto03{
+	background:url("../imagens/galeria3.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto03:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}
+
+li.foto04{
+	background:url("../imagens/galeria4.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto04:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}
+
+li.foto05{
+	background:url("../imagens/galeria5.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto05:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}
+
+li.foto06{
+	background:url("../imagens/galeria6.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 700px 500px;
+}
+
+li.foto06:hover{
+	background-position: 0% 0%;
+	background-size: 200px 200px;
+}

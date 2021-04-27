@@ -148,6 +148,8 @@ span a{
 	text-decoration: none;
 	color: #9bc848;
 	padding: 0px 15px;
+	display: block;
+	margin: 0px auto;
 	text-align: center;
 }
 
