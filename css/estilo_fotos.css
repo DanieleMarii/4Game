@@ -36,17 +36,18 @@
 /* SEGUNDA ANIMAÇÃO */
 
 .album{
-	width: 800px;
-	margin: 0px auto;
-	padding: 50px;
+	width: 1000px;
+	height: 500px;
+	margin: 30px auto 10px auto;
+	padding: 0px auto;
 	list-style: none;
 }
 
 .album li{
 	float: left;
-	width: 200px;
-	height: 200px;
-	border: 6px solid yellow;
+	width: 29.5%;
+	height: 199px;
+	border: 5px solid yellow;
 	background: #FFF;
 	margin: 10px;
 	transition: all .4s ease-in;
@@ -78,7 +79,7 @@ li.foto01{
 
 li.foto01:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }
 
 li.foto02{
@@ -89,7 +90,7 @@ li.foto02{
 
 li.foto02:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }
 
 li.foto03{
@@ -100,7 +101,7 @@ li.foto03{
 
 li.foto03:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }
 
 li.foto04{
@@ -111,7 +112,7 @@ li.foto04{
 
 li.foto04:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }
 
 li.foto05{
@@ -122,7 +123,7 @@ li.foto05{
 
 li.foto05:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }
 
 li.foto06{
@@ -133,5 +134,5 @@ li.foto06{
 
 li.foto06:hover{
 	background-position: 0% 0%;
-	background-size: 200px 200px;
+	background-size: 300px 200px;
 }

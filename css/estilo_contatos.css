@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+form{
+	width: 1000px;
+	margin: auto;
+}
+
+input, textarea {
+	font: 18px verdana;
+	background: #FFF;
+	
+}
+
+legend {
+	color: #DCDCDC;
+	font: 20px verdada;
+	font-weight: bold; 
+}
+
+fieldset{
+	/* border: #DCDCDC; */
+	border: 2px solid #DCDCDC;
+	margin: 20px;
+}
+
+.btn{
+	background: #DCDCDC;
+	color: #000;
+	padding: 7px;
+	margin: 5px;
+	font-family: arial;
+	font-size: 17px;
+	border:none;
+}
+
+.btn:hover{
+	background: yellow;
+	color: #000;
+}

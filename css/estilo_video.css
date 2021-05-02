@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#radio_tv{
+	width: 1000px;
+	height: 600px;
+	margin: 5px auto;
+	background:url("../imagens/radio-tv.png") no-repeat;
+}
+
+#musica{
+	display: block;
+	position: relative;
+	top: 490px;
+	left: 573px;
+}
+
+#filme{
+	display: block;
+	position: relative;
+	width: 450px;
+	height: 350px;
+	top: -10px;
+	left: 80px;
+}

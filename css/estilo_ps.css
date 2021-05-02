@@ -1,5 +1,12 @@
 @charset="UTF-8";
 
+
+@font-face {
+	font-family: game;
+	src:url(../fontes/game.ttf);
+	
+}
+
 .outrasNoticias{
 	width: 310px;
 	margin: 5px auto 0px auto;
@@ -22,8 +29,9 @@
 h1{
 	text-align: center;
 	color: #DCDCDC;
-	font-family: verdana;
+	font-family: game, verdana;
 	font-size: 25px;
+	
 }
 
 h2{
